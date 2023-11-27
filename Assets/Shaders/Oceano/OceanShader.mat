@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OceanShader
+  m_Shader: {fileID: 4800000, guid: 4687f14c80c23834c80af52babeb46f9, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 27ff849fd79c04f438710c46f0f44eb8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SeaFoam:
+        m_Texture: {fileID: 2800000, guid: caef8ff78ff967945839a3c1f431a7c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterMap:
+        m_Texture: {fileID: 2800000, guid: 27ff849fd79c04f438710c46f0f44eb8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Depth: -4
+    - _EdgeDistance: 1.2
+    - _EdgeFoamTile: 0.18
+    - _EdgeFoamTile1: 1
+    - _EdgeLength: 15
+    - _EdgePower: 0.49
+    - _Float0: 1
+    - _FoamMask: 2
+    - _NormalSpeed: -0.11
+    - _NormalTile: 0.18
+    - _RefractAmount: 0.1
+    - _Smoothness: 0.5
+    - _WaveHeight: 1
+    - _WaveSpeed: 0.2
+    - _WaveTile: 1.54
+    - __dirty: 0
+    m_Colors:
+    - _TopColor: {r: 0.37169808, g: 0.768199, b: 1, a: 1}
+    - _Vector0: {r: 0.03, g: 0.23, b: 0, a: 0}
+    - _WaterColor: {r: 0.13705936, g: 0.6472181, b: 0.9433962, a: 1}
+    - _WaveStretch: {r: 0.03, g: 0.1, b: 0, a: 0}
+  m_BuildTextureStacks: []
